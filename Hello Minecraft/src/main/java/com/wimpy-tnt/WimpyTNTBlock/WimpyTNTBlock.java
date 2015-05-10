@@ -24,7 +24,6 @@ public class WimpyTNTBlock extends Block
     public WimpyTNTBlock () 
     {
             super(Material.tnt);
-			setHardness(0.1F);
             setUnlocalizedName(name);
             setCreativeTab(CreativeTabs.tabBlock);
     }
@@ -42,14 +41,16 @@ public class WimpyTNTBlock extends Block
 
             if (item == Items.flint_and_steel || item == Items.fire_charge)
             {
-				float f = .5F;
-
-				World worldObj = Minecraft.getMinecraft().theWorld;
-				
-				worldObj.createExplosion(null, pos.getX(),
-					pos.getY(), pos.getZ(), f, true);
-
+				// Let's set our wimpy TNT block to air because it is exploding...
 				worldIn.setBlockToAir(pos);
+
+				// You can bump the force up/down here if you like.
+				float force = .5F;
+
+				// Create the explosion in our world.
+				worldIn.createExplosion(null, pos.getX(),
+					pos.getY(), pos.getZ(), force, true);
+
                 return true;
             }
         }
