@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{BE0A4C86-FC82-4F70-8ED6-D24C8B13E7BF}") = "Hello Minecraft", "Hello Minecraft\Hello Minecraft.javaproj", "{8249D780-ED1D-48C8-91CA-77A41785897D}"
+Project("{BE0A4C86-FC82-4F70-8ED6-D24C8B13E7BF}") = "Hello Minecraft", "Hello Minecraft\Hello Minecraft.javaproj", "{8D85D888-61C6-4536-B820-4A47135C37F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		DebugServer|Any CPU = DebugServer|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8249D780-ED1D-48C8-91CA-77A41785897D}.DebugClient|Any CPU.ActiveCfg = DebugClient|Any CPU
-		{8249D780-ED1D-48C8-91CA-77A41785897D}.DebugClient|Any CPU.Build.0 = DebugClient|Any CPU
-		{8249D780-ED1D-48C8-91CA-77A41785897D}.DebugServer|Any CPU.ActiveCfg = DebugServer|Any CPU
-		{8249D780-ED1D-48C8-91CA-77A41785897D}.DebugServer|Any CPU.Build.0 = DebugServer|Any CPU
+		{8D85D888-61C6-4536-B820-4A47135C37F6}.DebugClient|Any CPU.ActiveCfg = DebugClient|Any CPU
+		{8D85D888-61C6-4536-B820-4A47135C37F6}.DebugClient|Any CPU.Build.0 = DebugClient|Any CPU
+		{8D85D888-61C6-4536-B820-4A47135C37F6}.DebugServer|Any CPU.ActiveCfg = DebugServer|Any CPU
+		{8D85D888-61C6-4536-B820-4A47135C37F6}.DebugServer|Any CPU.Build.0 = DebugServer|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

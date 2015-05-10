@@ -55,6 +55,18 @@
     <Content Include="packages.config">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="src\main\resources\assets\wimpytnt\blockstates\wimpyTNT.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="src\main\resources\assets\wimpytnt\models\block\wimpyTNT.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="src\main\resources\assets\wimpytnt\models\item\wimpyTNT.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="src\main\resources\assets\wimpytnt\textures\blocks\wimpyTNT.png">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <JarReference Include="C:/Users/Dean/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.1.1357/snapshot/20141130/forgeSrc-1.8-11.14.1.1357.jar">
@@ -293,6 +305,14 @@
       <IncludeInBuild>true</IncludeInBuild>
       <Private>false</Private>
     </JarReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\main\java\com\wimpy-tnt\WimpyTNTBlock\WimpyTNTBlock.java">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\main\java\com\wimpy-tnt\WimpyTNTMod.java">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
